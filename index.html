@@ -248,6 +248,510 @@
 
 
 
+        <!-- DEDUPLICATED -->
+		<hr id="deduplicated">
+		<center>
+			<h1 style="margin-top: 65px;">Deduplicated</h1>
+			<p>The collection of each song's best (in terms of rating if available) unique arrangements.</p>
+		</center>
+		<center>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<!-- dropdown audio -->
+					<!-- <div class="col-sm">
+						<audio controls id="dropdown_audio">
+							<source src="./resources/audio/audio1.mp4" type="audio/mp4">
+						  </audio>
+						<div class="btn-group my-btn" id="myAudioDropdown">
+							<button type="button" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'" class="btn btn-info">Dropdown</button>
+							<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio2.mp4'">2</a></li>
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio3.mp4'">3</a></li>
+								<li><hr class="dropdown-divider"></li> 
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'">1</a></li>
+							</ul>
+						</div>
+					</div> -->
+					<!-- end dropdown audio -->
+
+
+
+					<!-- BASE -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Base</p>
+							<div id="myAudioCarousel.base.deduplicated" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.base.deduplicated" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.base.deduplicated" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.base.deduplicated" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/base/deduplicated/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/deduplicated/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/deduplicated/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.base.deduplicated" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.base.deduplicated" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+
+
+
+					<!-- FINETUNED -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Fine-Tuned</p>
+							<div id="myAudioCarousel.fine_tuned.deduplicated" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.fine_tuned.deduplicated" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.deduplicated" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.deduplicated" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/deduplicated/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/deduplicated/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/deduplicated/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.fine_tuned.deduplicated" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.fine_tuned.deduplicated" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+				</div>
+			</div>
+		</center>
+		<br>
+		<!-- end -->
+
+
+
+        <!-- RATED -->
+		<hr id="rated">
+		<center>
+			<h1 style="margin-top: 65px;">Rated</h1>
+			<p>Songs with non-zero ratings.</p>
+		</center>
+		<center>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<!-- dropdown audio -->
+					<!-- <div class="col-sm">
+						<audio controls id="dropdown_audio">
+							<source src="./resources/audio/audio1.mp4" type="audio/mp4">
+						  </audio>
+						<div class="btn-group my-btn" id="myAudioDropdown">
+							<button type="button" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'" class="btn btn-info">Dropdown</button>
+							<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio2.mp4'">2</a></li>
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio3.mp4'">3</a></li>
+								<li><hr class="dropdown-divider"></li> 
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'">1</a></li>
+							</ul>
+						</div>
+					</div> -->
+					<!-- end dropdown audio -->
+
+
+
+					<!-- BASE -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Base</p>
+							<div id="myAudioCarousel.base.rated" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.base.rated" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.base.rated" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.base.rated" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/base/rated/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/rated/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/rated/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.base.rated" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.base.rated" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+
+
+
+					<!-- FINETUNED -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Fine-Tuned</p>
+							<div id="myAudioCarousel.fine_tuned.rated" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.fine_tuned.rated" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.rated" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.rated" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/rated/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/rated/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/rated/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.fine_tuned.rated" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.fine_tuned.rated" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+				</div>
+			</div>
+		</center>
+		<br>
+		<!-- end -->
+
+
+
+        <!-- RATED_DEDUPLICATED -->
+		<hr id="rated_deduplicated">
+		<center>
+			<h1 style="margin-top: 65px;">Rated and Deduplicated</h1>
+			<p>The intersection of the Rated and Deduplicated subsets.</p>
+		</center>
+		<center>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<!-- dropdown audio -->
+					<!-- <div class="col-sm">
+						<audio controls id="dropdown_audio">
+							<source src="./resources/audio/audio1.mp4" type="audio/mp4">
+						  </audio>
+						<div class="btn-group my-btn" id="myAudioDropdown">
+							<button type="button" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'" class="btn btn-info">Dropdown</button>
+							<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio2.mp4'">2</a></li>
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio3.mp4'">3</a></li>
+								<li><hr class="dropdown-divider"></li> 
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'">1</a></li>
+							</ul>
+						</div>
+					</div> -->
+					<!-- end dropdown audio -->
+
+
+
+					<!-- BASE -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Base</p>
+							<div id="myAudioCarousel.base.rated_deduplicated" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.base.rated_deduplicated" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.base.rated_deduplicated" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.base.rated_deduplicated" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/base/rated_deduplicated/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/rated_deduplicated/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/rated_deduplicated/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.base.rated_deduplicated" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.base.rated_deduplicated" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+
+
+
+					<!-- FINETUNED -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Fine-Tuned</p>
+							<div id="myAudioCarousel.fine_tuned.rated_deduplicated" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.fine_tuned.rated_deduplicated" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.rated_deduplicated" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.rated_deduplicated" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/rated_deduplicated/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/rated_deduplicated/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/rated_deduplicated/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.fine_tuned.rated_deduplicated" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.fine_tuned.rated_deduplicated" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+				</div>
+			</div>
+		</center>
+		<br>
+		<!-- end -->
+
+
+
+        <!-- RANDOM -->
+		<hr id="random">
+		<center>
+			<h1 style="margin-top: 65px;">Random</h1>
+			<p>A random subset of songs sampled from the full dataset at the size of the Rated and Deduplicated subset.</p>
+		</center>
+		<center>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<!-- dropdown audio -->
+					<!-- <div class="col-sm">
+						<audio controls id="dropdown_audio">
+							<source src="./resources/audio/audio1.mp4" type="audio/mp4">
+						  </audio>
+						<div class="btn-group my-btn" id="myAudioDropdown">
+							<button type="button" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'" class="btn btn-info">Dropdown</button>
+							<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio2.mp4'">2</a></li>
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio3.mp4'">3</a></li>
+								<li><hr class="dropdown-divider"></li> 
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'">1</a></li>
+							</ul>
+						</div>
+					</div> -->
+					<!-- end dropdown audio -->
+
+
+
+					<!-- BASE -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Base</p>
+							<div id="myAudioCarousel.base.random" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.base.random" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.base.random" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.base.random" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/base/random/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/random/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/base/random/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.base.random" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.base.random" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+
+
+
+					<!-- FINETUNED -->
+					<div class="col-sm" style="max-width: 550px;">
+						<center>
+							<p>Fine-Tuned</p>
+							<div id="myAudioCarousel.fine_tuned.random" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel.fine_tuned.random" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.random" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel.fine_tuned.random" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/random/0.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/random/1.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/fine_tuned/random/2.wav" type="audio/wav">
+										</audio>
+										<!-- <div class="position-relative text-center"></div> -->
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#myAudioCarousel.fine_tuned.random" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myAudioCarousel.fine_tuned.random" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>
+					<!-- end -->
+				</div>
+			</div>
+		</center>
+		<br>
+		<!-- end -->
+
+
+
 		<!-- PAPER -->
 		<hr id="paper">
 		<div class="container">
