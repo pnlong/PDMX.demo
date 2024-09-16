@@ -149,8 +149,8 @@ td {
 
 
 /* carousel */
-.carousel {
-  margin-bottom: 30%;
+.carousel-title {
+  margin-top: 20%;
 }
 
 .carousel-indicators li {
