@@ -149,8 +149,10 @@ td {
 
 
 /* carousel */
-.carousel-title {
-  margin-top: 12px;
+@media screen and (max-width: 768px) {
+  .carousel-title {
+    margin-top: 14px;
+  }
 }
 
 .carousel-indicators li {
