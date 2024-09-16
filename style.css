@@ -149,6 +149,10 @@ td {
 
 
 /* carousel */
+.carousel {
+  margin-bottom: 30%;
+}
+
 .carousel-indicators li {
     width: 12px;
     height: 12px;
